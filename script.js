@@ -11,3 +11,5 @@ if (valorA > valorB) {
 }  else {
     alert ("Os números que você digitou são iguais!")
 }
+
+alert ( "Atualize sua página para usar novamente! Obrigado ;D")
