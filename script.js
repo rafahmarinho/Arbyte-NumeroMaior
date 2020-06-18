@@ -1,8 +1,8 @@
 alert ( "Olá! Seja bem vindo a minha página!" );
 alert ( "Vamos descobrir qual dentre 2 números é maior! Você me ajuda?" );
 
-let valorA = window.prompt ("Digite um número!");
-let valorB = window.prompt ("Agora digite outro número!");
+let valorA = parseInt (window.prompt ("Digite um número!"));
+let valorB = parseInt (window.prompt ("Agora digite outro número!"));
 
 if (valorA > valorB) { 
     alert ("O número "+ valorA + " é maior que o número "+ valorB +"." )
